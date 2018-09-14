@@ -8,7 +8,6 @@ tap 'homebrew/bundle'
 # Install Binaries
 brew 'awscli'
 brew 'bash' # Bash 4
-brew 'bat'
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'git'
 brew 'grep'
@@ -81,4 +80,4 @@ mas 'Spark', id: 1176895641
 mas 'The Unarchiver', id: 425424353
 mas 'Things', id: 904280696
 mas 'Tweetbot', id: 1384080005
-mas 'WhatsApp', id: 1147396723 
+mas 'WhatsApp', id: 1147396723
