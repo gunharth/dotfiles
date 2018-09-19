@@ -1,7 +1,6 @@
 # Taps
 tap 'caskroom/cask'
-# tap 'caskroom/eid'
-# tap 'caskroom/fonts'
+tap 'caskroom/fonts'
 tap 'caskroom/versions'
 tap 'homebrew/bundle'
 
@@ -14,8 +13,10 @@ brew 'grep'
 brew 'mackup'
 brew 'mas'
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
+brew 'sqlite'
 brew 'trash'
 brew 'tree'
+brew 'wget'
 brew 'zsh'
 brew 'zsh-completions'
 
@@ -25,59 +26,37 @@ brew 'mysql'
 brew 'node'
 
 # Apps
-# cask 'aerial'
-# cask 'alfred'
-# cask 'caffeine'
-# cask 'discord'
 cask 'docker'
-# cask 'dropbox'
-# cask 'dynamodb-local'
-# cask 'eid-be'
-# cask 'eid-be-viewer'
 cask 'firefox'
 cask 'google-backup-and-sync'
 cask 'google-chrome'
-# cask 'gpgtools'
-# cask 'grammarly'
-# cask 'insomnia'
+cask 'grammarly'
+cask 'insomnia'
+cask 'iterm2'
 cask 'java'
-cask 'mysqlworkbench'
-# cask 'now'
-# cask 'phpstorm'
-# cask 'quip'
 cask 'sequel-pro'
-# cask 'shuttle'
+cask 'skype'
 cask 'slack'
 cask 'sublime-text'
-# cask 'torbrowser'
-# cask 'tower'
-# cask 'transmit'
-# cask 'vagrant'
-# cask 'virtualbox'
-# cask 'virtualbox-extension-pack'
+cask 'virtualbox'
+cask 'virtualbox-extension-pack'
 cask 'vlc'
 
 # Quicklook
-# cask 'qlcolorcode'
-# cask 'qlmarkdown'
-# cask 'quicklook-json'
-# cask 'quicklook-csv'
-# cask 'qlstephen'
+cask 'qlcolorcode'
+cask 'qlmarkdown'
+cask 'quicklook-json'
+cask 'quicklook-csv'
+cask 'qlstephen'
 
 # Fonts
-# cask 'font-source-code-pro-for-powerline'
-# cask 'font-source-code-pro'
-# cask 'font-source-sans-pro'
-# cask 'font-source-serif-pro'
+cask 'font-fira-code'
+cask 'font-open-sans'
 
 # Install Mac App Store apps
-# mas '1Password', id: 1333542190
-# mas 'Byword', id: 420212497
-# mas 'Deckset', id: 847496013
+mas 'Color Picker', id: 945374555
 mas 'Giphy Capture', id: 668208984
-# mas 'Sip', id: 507257563
-# mas 'Spark', id: 1176895641
-# mas 'The Unarchiver', id: 425424353
-# mas 'Things', id: 904280696
-# mas 'Tweetbot', id: 1384080005
+mas 'Magnet', id: 441258766
+mas 'The Unarchiver', id: 425424353
+mas 'Toggl Desktop', id: 957734279
 mas 'WhatsApp', id: 1147396723
