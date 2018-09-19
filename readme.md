@@ -1,9 +1,14 @@
-# Dries's Dotfiles
+# Guni's Dotfiles
 
-This repository serves as my way to help me setup and maintain my Mac. It takes the effort out of installing everything manually. Everything which is needed to install my preffered setup of macOS is detailed in this readme. Feel free to explore, learn and copy parts for your own dotfiles. Enjoy! :smile:
 
-Read the blog post: https://medium.com/@driesvints/getting-started-with-dotfiles-76bf046d035c
+This is a fork from [Dries Vints](https://github.com/driesvints/dotfiles). Check out his documentation about these files. I just changed a few things to better fit my needs.
 
+Further make sure to check out [Christoph Rumpel's](https://github.com/christophrumpel/dotfiles-1) dotfiles and his [blog post](https://christoph-rumpel.com/2018/08/why-i-dont-use-timemachine-anymore-and-how-i-leveled-up-my-dotfiles).
+
+## Backup Checklist
+
+
+// Dries's readme below ...
 ## A Fresh macOS Setup
 
 These instructions are for when you've already set up your dotfiles. If you want to get started with your own dotfiles you can [find instructions below](#your-own-dotfiles).
