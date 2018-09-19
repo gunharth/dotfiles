@@ -7,27 +7,26 @@ Further make sure to check out [Christoph Rumpel's](https://github.com/christoph
 
 
 ## apps I use to integrate
-acrobat reader DC
+acrobat reader DC // cask
 Color Picker // mas
-cyberduck
-Filezilla
-Giphy Capture
-ImageOptim
-Joplin?
-Kitematic ? comes with docker from brew?
-LibreOffice
-Magnet
-nextcloud
-sequel pro
-skype
-slack
-sqlpro for sqlite?
-Sublime Text
-TeamViewer
-Thunderbird
-ToggleDesktop
+cyberduck // cask
+Filezilla // cask
+Giphy Capture // mas
+ImageOptim // cask
+Kitematic // cask
+LibreOffice // cask
+Magnet //mas
+nextcloud // cask
+sequel-pro // cask
+skype // cask
+slack // cask
+Sublime Text // cask 
+TeamViewer //cask
+Thunderbird // cask
+ToggleDesktop // mas
 Visual Studio Code
-VLC
+VLC // mas
+WhatsApp // mas
 
 ## Backup Checklist
 
