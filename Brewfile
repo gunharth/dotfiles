@@ -1,7 +1,7 @@
 # Taps
 tap 'caskroom/cask'
-tap 'caskroom/eid'
-tap 'caskroom/fonts'
+# tap 'caskroom/eid'
+# tap 'caskroom/fonts'
 tap 'caskroom/versions'
 tap 'homebrew/bundle'
 
@@ -25,59 +25,59 @@ brew 'mysql'
 brew 'node'
 
 # Apps
-cask 'aerial'
-cask 'alfred'
-cask 'caffeine'
-cask 'discord'
+# cask 'aerial'
+# cask 'alfred'
+# cask 'caffeine'
+# cask 'discord'
 cask 'docker'
-cask 'dropbox'
-cask 'dynamodb-local'
-cask 'eid-be'
-cask 'eid-be-viewer'
+# cask 'dropbox'
+# cask 'dynamodb-local'
+# cask 'eid-be'
+# cask 'eid-be-viewer'
 cask 'firefox'
 cask 'google-backup-and-sync'
 cask 'google-chrome'
-cask 'gpgtools'
-cask 'grammarly'
-cask 'insomnia'
+# cask 'gpgtools'
+# cask 'grammarly'
+# cask 'insomnia'
 cask 'java'
 cask 'mysqlworkbench'
-cask 'now'
-cask 'phpstorm'
-cask 'quip'
+# cask 'now'
+# cask 'phpstorm'
+# cask 'quip'
 cask 'sequel-pro'
-cask 'shuttle'
+# cask 'shuttle'
 cask 'slack'
 cask 'sublime-text'
-cask 'torbrowser'
-cask 'tower'
-cask 'transmit'
-cask 'vagrant'
-cask 'virtualbox'
-cask 'virtualbox-extension-pack'
+# cask 'torbrowser'
+# cask 'tower'
+# cask 'transmit'
+# cask 'vagrant'
+# cask 'virtualbox'
+# cask 'virtualbox-extension-pack'
 cask 'vlc'
 
 # Quicklook
-cask 'qlcolorcode'
-cask 'qlmarkdown'
-cask 'quicklook-json'
-cask 'quicklook-csv'
-cask 'qlstephen'
+# cask 'qlcolorcode'
+# cask 'qlmarkdown'
+# cask 'quicklook-json'
+# cask 'quicklook-csv'
+# cask 'qlstephen'
 
 # Fonts
-cask 'font-source-code-pro-for-powerline'
-cask 'font-source-code-pro'
-cask 'font-source-sans-pro'
-cask 'font-source-serif-pro'
+# cask 'font-source-code-pro-for-powerline'
+# cask 'font-source-code-pro'
+# cask 'font-source-sans-pro'
+# cask 'font-source-serif-pro'
 
 # Install Mac App Store apps
-mas '1Password', id: 1333542190
-mas 'Byword', id: 420212497
-mas 'Deckset', id: 847496013
+# mas '1Password', id: 1333542190
+# mas 'Byword', id: 420212497
+# mas 'Deckset', id: 847496013
 mas 'Giphy Capture', id: 668208984
-mas 'Sip', id: 507257563
-mas 'Spark', id: 1176895641
-mas 'The Unarchiver', id: 425424353
-mas 'Things', id: 904280696
-mas 'Tweetbot', id: 1384080005
+# mas 'Sip', id: 507257563
+# mas 'Spark', id: 1176895641
+# mas 'The Unarchiver', id: 425424353
+# mas 'Things', id: 904280696
+# mas 'Tweetbot', id: 1384080005
 mas 'WhatsApp', id: 1147396723
