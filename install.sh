@@ -35,7 +35,7 @@ npm install --global yarn
 
 # Create a Sites directory
 # This is a default directory for macOS user accounts but doesn't comes pre-installed
-mkdir $HOME/Sites
+# mkdir $HOME/Sites
 
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc
@@ -43,6 +43,9 @@ ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 
 # Symlink the Mackup config file to the home directory
 ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
+
+# Symlink the .hushlogin file to the home directory
+ln -s $HOME/.dotfiles/.hushlogin $HOME/.hushlogin
 
 # Set macOS preferences
 # We will run this last because this will reload the shell

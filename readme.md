@@ -5,6 +5,7 @@ This is a fork from [Dries Vints](https://github.com/driesvints/dotfiles). Check
 
 Further make sure to check out [Christoph Rumpel's](https://github.com/christophrumpel/dotfiles-1) dotfiles and his [blog post](https://christoph-rumpel.com/2018/08/why-i-dont-use-timemachine-anymore-and-how-i-leveled-up-my-dotfiles).
 
+- Added the .hushlogin file to remove the "Last login" string from each new tab in iTerm.
 
 ## apps I use to integrate
 acrobat reader DC // cask
