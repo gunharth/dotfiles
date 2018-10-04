@@ -45,10 +45,10 @@ cask 'sequel-pro'
 cask 'skype'
 cask 'slack'
 cask 'sublime-text'
-cask 'teamviewer'
+# cask 'teamviewer'
 cask 'thunderbird'
-cask 'virtualbox'
-cask 'virtualbox-extension-pack'
+# cask 'virtualbox' // didn't work
+# cask 'virtualbox-extension-pack' // didn't work
 cask 'visual-studio-code'
 cask 'vlc'
 
