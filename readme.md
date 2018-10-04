@@ -25,9 +25,11 @@ Sublime Text // cask
 TeamViewer //cask
 Thunderbird // cask
 ToggleDesktop // mas
-Visual Studio Code
+Visual Studio Code // cask
 VLC // mas
 WhatsApp // mas
+
+Printer would be nice ...
 
 ## Backup Checklist
 
