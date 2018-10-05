@@ -33,6 +33,7 @@ WhatsApp // mas
 Printer would be nice ...
 
 also put .ssh onto nextcloud with config and rsa keys
+git global config to nextcloud
 
 ## Backup Checklist
 
