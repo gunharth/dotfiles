@@ -1,5 +1,6 @@
-# Guni's Dotfiles
+# Guni's Dotfiles WIP
 
+Warning: mas does not work with Mojave! #paste url to issue with signin to mac app store
 
 This is a fork from [Dries Vints](https://github.com/driesvints/dotfiles). Check out his documentation about these files. I just changed a few things to better fit my needs.
 
@@ -30,6 +31,8 @@ VLC // mas
 WhatsApp // mas
 
 Printer would be nice ...
+
+also put .ssh onto nextcloud with config and rsa keys
 
 ## Backup Checklist
 
