@@ -4,7 +4,8 @@ alias gaa="git add ."
 alias gc="git commit -m"
 alias gp="git push"
 alias gs="git status"
-alias gl="git log"
+alias glog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias gd="git diff"
 alias nah="git reset --hard && git clean -df"
 
 #homestead
