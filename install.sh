@@ -47,6 +47,12 @@ ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
 # Symlink the .hushlogin file to the home directory
 ln -s $HOME/.dotfiles/.hushlogin $HOME/.hushlogin
 
+# Filezilla Setup
+# Make sure .config folder is owned by me
+chown -R guni $HOME/.config
+mkdir $HOME/.config/filezilla
+ln -s $HOME/Nextcloud/Sync/Filezilla/sitemanager.xml $HOME/.config/filezilla/sitemanager.xml
+
 # Set macOS preferences
 # We will run this last because this will reload the shell
 source .macos

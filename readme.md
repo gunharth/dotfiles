@@ -30,10 +30,16 @@ Visual Studio Code // cask
 VLC // mas
 WhatsApp // mas
 
-Printer would be nice ...
+
 
 also put .ssh onto nextcloud with config and rsa keys
 git global config to nextcloud
+
+Thunderbird - mmmm
+Filezilla:
+make sure $HOME/.config is set to myself with chown -r Guni
+ln -s ~/Nextcloud/Sync/Filezilla/sitemanager.xml ~/.config/filezilla/sitemanager.xml
+
 
 ## Backup Checklist
 
