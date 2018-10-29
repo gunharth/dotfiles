@@ -27,6 +27,7 @@ brew 'node'
 
 # Apps
 cask 'adobe-acrobat-reader'
+cask 'cheatsheet'
 cask 'cyberduck'
 cask 'docker'
 cask 'filezilla'
