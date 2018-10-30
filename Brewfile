@@ -69,6 +69,7 @@ cask 'font-raleway'
 # Install Mac App Store apps
 mas 'Color Picker', id: 945374555
 mas 'Giphy Capture', id: 668208984
+mas 'Keynote', id: 409183694
 mas 'Magnet', id: 441258766
 mas 'The Unarchiver', id: 425424353
 mas 'Toggl Desktop', id: 957734279
