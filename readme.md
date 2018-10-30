@@ -1,7 +1,5 @@
 # Guni's Dotfiles WIP
 
-Warning: mas does not work with Mojave! #paste url to issue with signin to mac app store
-
 This is a fork from [Dries Vints](https://github.com/driesvints/dotfiles). Check out his documentation about these files. I just changed a few things to better fit my needs.
 
 Further make sure to check out [Christoph Rumpel's](https://github.com/christophrumpel/dotfiles-1) dotfiles and his [blog post](https://christoph-rumpel.com/2018/08/why-i-dont-use-timemachine-anymore-and-how-i-leveled-up-my-dotfiles).
@@ -11,6 +9,7 @@ Further make sure to check out [Christoph Rumpel's](https://github.com/christoph
 ## apps I use to integrate
 acrobat reader DC // cask
 Color Picker // mas
+cheetsheet // cask
 cyberduck // cask
 Filezilla // cask
 Giphy Capture // mas
@@ -29,7 +28,6 @@ ToggleDesktop // mas
 Visual Studio Code // cask
 VLC // mas
 WhatsApp // mas
-
 
 
 also put .ssh onto nextcloud with config and rsa keys
