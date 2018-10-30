@@ -14,7 +14,8 @@ cyberduck // cask
 Filezilla // cask
 Giphy Capture // mas
 ImageOptim // cask
-Kitematic // cask
+keynote // mas
+// Kitematic // cask
 LibreOffice // cask
 Magnet //mas
 nextcloud // cask
@@ -22,7 +23,7 @@ sequel-pro // cask
 skype // cask
 slack // cask
 Sublime Text // cask 
-TeamViewer //cask
+// TeamViewer //cask
 Thunderbird // cask
 ToggleDesktop // mas
 Visual Studio Code // cask
