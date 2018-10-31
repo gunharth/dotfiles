@@ -13,11 +13,14 @@ For more sensitive data I use a European based Nextcloud service. The following 
 For all other synced files I am using Google Drive.
 
 note to myself: git global config to nextcloud
+ln -s $HOME/Nextcloud/Sync/git/gitconfig $HOME/.gitconfig
 
 Filezilla:
 make sure $HOME/.config is set to myself with chown -r Guni
 ln -s ~/Nextcloud/Sync/Filezilla/sitemanager.xml ~/.config/filezilla/sitemanager.xml
 
+Manually set projects.json file in vscode after install
+Project Manager: Projects location: /Users/Guni/Nextcloud/Sync/Code
 
 ## Backup Checklist
 
