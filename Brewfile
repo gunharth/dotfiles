@@ -21,8 +21,8 @@ brew 'zsh'
 brew 'zsh-completions'
 
 # Development
-brew 'php'
-brew 'mysql'
+brew 'php@7.2'
+brew 'mysql@5.7'
 brew 'node'
 
 # Apps
