@@ -47,11 +47,26 @@ ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
 # Symlink the .hushlogin file to the home directory
 ln -s $HOME/.dotfiles/.hushlogin $HOME/.hushlogin
 
+############
+# Nextcloud
+############
+
+# Symlink the .gitconfig file to the home directory
+ln -s $HOME/Nextcloud/Sync/git/gitconfig $HOME/.gitconfig
+
 # Filezilla Setup
 # Make sure .config folder is owned by me
 chown -R guni $HOME/.config
 mkdir $HOME/.config/filezilla
 ln -s $HOME/Nextcloud/Sync/Filezilla/sitemanager.xml $HOME/.config/filezilla/sitemanager.xml
+
+#####################
+# Work folder setups
+#####################
+
+mkdir $HOME/Code/guni
+mkdir $HOME/Code/playground
+
 
 # Set macOS preferences
 # We will run this last because this will reload the shell

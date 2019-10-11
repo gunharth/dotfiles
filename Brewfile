@@ -21,8 +21,8 @@ brew 'zsh'
 brew 'zsh-completions'
 
 # Development
-brew 'php'
-brew 'mysql'
+brew 'php@7.2'
+brew 'mysql@5.7'
 brew 'node'
 
 # Apps
@@ -34,13 +34,13 @@ cask 'filezilla'
 cask 'firefox'
 cask 'google-backup-and-sync'
 cask 'google-chrome'
-cask 'grammarly'
 cask 'imageoptim'
 cask 'insomnia'
 cask 'iterm2'
 cask 'java'
 cask 'kitematic'
 cask 'libreoffice'
+cask 'mactex-no-gui'
 cask 'nextcloud'
 cask 'sequel-pro'
 cask 'skype'
@@ -52,6 +52,7 @@ cask 'thunderbird'
 # cask 'virtualbox-extension-pack' // didn't work
 cask 'visual-studio-code'
 cask 'vlc'
+cask 'zotero'
 
 # Quicklook
 cask 'qlcolorcode'
