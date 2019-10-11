@@ -13,6 +13,8 @@ alias hu="homestead up"
 alias hh="homestead halt"
 alias hs="homestead ssh"
 
+alias homestead='function __homestead() { (cd ~/Homestead && vagrant $*); unset -f __homestead; }; __homestead'
+
 # Laravel artisan
 alias a="php artisan"
 
