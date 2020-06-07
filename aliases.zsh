@@ -9,10 +9,6 @@ alias gd="git diff"
 alias nah="git reset --hard && git clean -df"
 
 #homestead
-alias hu="homestead up"
-alias hh="homestead halt"
-alias hs="homestead ssh"
-
 alias hs='function __homestead() { (cd ~/Homestead && vagrant $*); unset -f __homestead; }; __homestead'
 
 # Laravel artisan
