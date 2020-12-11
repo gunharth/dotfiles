@@ -48,8 +48,8 @@ cask 'slack'
 cask 'sublime-text'
 # cask 'teamviewer'
 cask 'thunderbird'
-cask 'virtualbox' // didn't work
-cask 'virtualbox-extension-pack' // didn't work
+# cask 'virtualbox' // didn't work
+# cask 'virtualbox-extension-pack' // didn't work
 cask 'visual-studio-code'
 cask 'vlc'
 # cask 'zotero'
@@ -73,6 +73,7 @@ mas 'Giphy Capture', id: 668208984
 mas 'Keynote', id: 409183694
 mas 'Magnet', id: 441258766
 mas 'LastPass Password Manager', id: 926036361
+mas 'Sequel Ace', id: 1518036000
 mas 'The Unarchiver', id: 425424353
 mas 'Toggl Desktop', id: 957734279
 mas 'WhatsApp', id: 1147396723
