@@ -5,60 +5,44 @@ tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 
 # Install Binaries
-# brew 'awscli'
 brew 'bash' # latest bash version
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'git'
-# brew 'grep'
 brew 'mackup'
 brew 'mas' # Mac App Store manager
-# brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'sqlite'
-# brew 'trash'
-# brew 'tree'
-# brew 'wget'
-# brew 'zsh'
-# brew 'zsh-completions'
+brew 'wget'
 
 # Development
-# brew 'php@7.2'
-# brew 'mysql@5.7'
+brew 'php'
 brew 'node'
 
 # Apps
 cask 'adobe-acrobat-reader'
-# cask 'cheatsheet'
 cask 'cyberduck'
-# cask 'docker'
 # cask 'filezilla' // install manually
 cask 'firefox'
 cask 'google-backup-and-sync'
 cask 'google-chrome'
 cask 'imageoptim'
-# cask 'insomnia'
 cask 'iterm2'
-# cask 'kitematic'
 cask 'libreoffice'
-# cask 'mactex-no-gui'
 cask 'nextcloud'
-# cask 'sequel-ace'
 cask 'skype'
 cask 'slack'
 cask 'sublime-text'
-# cask 'teamviewer'
 cask 'thunderbird'
 # cask 'virtualbox' // didn't work
 # cask 'virtualbox-extension-pack' // didn't work
 cask 'visual-studio-code'
 cask 'vlc'
-# cask 'zotero'
 
 # Quicklook
-# cask 'qlcolorcode'
-# cask 'qlmarkdown'
-# cask 'quicklook-json'
-# cask 'quicklook-csv'
-# cask 'qlstephen'
+cask 'qlcolorcode'
+cask 'qlmarkdown'
+cask 'quicklook-json'
+cask 'quicklook-csv'
+cask 'qlstephen'
 
 # Fonts
 # cask 'font-fira-code'
@@ -67,11 +51,9 @@ cask 'vlc'
 # cask 'font-raleway'
 
 # Install Mac App Store apps
-# mas 'Color Picker', id: 945374555
-# mas 'Giphy Capture', id: 668208984
 mas 'Keynote', id: 409183694
-mas 'Magnet', id: 441258766
 mas 'LastPass Password Manager', id: 926036361
+mas 'Magnet', id: 441258766
 mas 'Sequel Ace', id: 1518036000
 mas 'The Unarchiver', id: 425424353
 mas 'Toggl Desktop', id: 957734279

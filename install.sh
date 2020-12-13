@@ -14,9 +14,6 @@ brew update
 brew tap homebrew/bundle
 brew bundle
 
-# Make ZSH the default shell environment
-chsh -s $(which zsh)
-
 # Install PHP extensions with PECL
 # pecl install imagick
 
@@ -25,7 +22,7 @@ curl -sS https://getcomposer.org/installer | php
 mv composer.phar /usr/local/bin/composer
 
 # Install global Composer packages
-/usr/local/bin/composer global require laravel/installer laravel/valet
+# /usr/local/bin/composer global require laravel/installer laravel/valet
 
 # Install Laravel Valet
 # $HOME/.composer/vendor/bin/valet install
@@ -52,22 +49,22 @@ ln -s $HOME/.dotfiles/.hushlogin $HOME/.hushlogin
 ############
 
 # Symlink the .gitconfig file to the home directory
-ln -s $HOME/Nextcloud/Sync/git/gitconfig $HOME/.gitconfig
+# ln -s $HOME/Nextcloud/Sync/git/gitconfig $HOME/.gitconfig
 
 # Filezilla Setup
 # Make sure .config folder is owned by me
-chown -R guni $HOME/.config
-mkdir $HOME/.config/filezilla
-ln -s $HOME/Nextcloud/Sync/Filezilla/sitemanager.xml $HOME/.config/filezilla/sitemanager.xml
+# chown -R guni $HOME/.config
+# mkdir $HOME/.config/filezilla
+# ln -s $HOME/Nextcloud/Sync/Filezilla/sitemanager.xml $HOME/.config/filezilla/sitemanager.xml
 
 #####################
 # Work folder setups
 #####################
 
-mkdir $HOME/Code/guni
-mkdir $HOME/Code/playground
+# mkdir $HOME/Code/guni
+# mkdir $HOME/Code/playground
 
 
 # Set macOS preferences
 # We will run this last because this will reload the shell
-source .macos
+# source .macos
